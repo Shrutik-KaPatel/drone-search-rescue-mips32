@@ -181,7 +181,7 @@ Score4 = 90  (expected 90) ✓
 Score5 = 72  (expected 72) ✓
 =============================
 ```
-
+![Waveform](Documents/Waveform.png)
 ---
 
 ## 🗂️ Repository Structure
@@ -201,8 +201,6 @@ drone-search-rescue-mips32/
 ├── Drone.xpr                   # Vivado project file
 ├── .gitignore
 └── README.md
-
-![Waveform](Documents/Waveform.png)
 ```
 
 ---

@@ -1,0 +1,12 @@
+# Vivado generated folders
+Drone.cache/
+Drone.hw/
+Drone.ip_user_files/
+Drone.runs/
+Drone.sim/
+
+# Log files
+*.log
+*.jou
+*.pb
+*.str

@@ -186,18 +186,13 @@ Score5 = 72  (expected 72) ✓
 
 ## 🗂️ Repository Structure
 ```
-drone-search-rescue-mips32/
-│
-├── rtl/
-│   └── pipe_MIPS32.v          # Processor RTL — 5-stage pipeline
-│
-├── tb/
-│   └── pipe_MIPS32_tb.v       # Testbench — program + sensor data + monitor
-│
-├── docs/
-│   └── waveform.png           # XSim waveform screenshot
-│
-└── README.md
+Drone.srcs/
+├── sim_1/new/
+│   └── pipe_MIPS32_tb.v
+├── sources_1/new/
+│   └── pipe_MIPS32.v
+Drone.xpr
+README.md
 ```
 
 ---

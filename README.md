@@ -186,13 +186,23 @@ Score5 = 72  (expected 72) ✓
 
 ## 🗂️ Repository Structure
 ```
-Drone.srcs/
-├── sim_1/new/
-│   └── pipe_MIPS32_tb.v
-├── sources_1/new/
-│   └── pipe_MIPS32.v
-Drone.xpr
-README.md
+drone-search-rescue-mips32/
+│
+├── Drone.srcs/
+│   ├── sim_1/new/
+│   │   └── pipe_MIPS32_tb.v    # Testbench — program + sensor data + monitor
+│   └── sources_1/new/
+│       └── pipe_MIPS32.v       # Processor RTL — 5-stage pipeline
+│
+├── Documents/
+│   ├── Waveform.png            # XSim waveform screenshot
+│   └── Output.txt              # Simulation output log
+│
+├── Drone.xpr                   # Vivado project file
+├── .gitignore
+└── README.md
+
+![Waveform](Documents/Waveform.png)
 ```
 
 ---
